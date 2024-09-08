@@ -1,5 +1,5 @@
 name: p2p_chat
-description: A new Flutter project.
+description: A P2P chat application using Flutter and WebRTC.
 
 version: 1.0.0+1
 
@@ -9,6 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_webrtc: ^0.11.6+hotfix.1
+  shared_preferences: ^2.0.15
+  provider: ^6.0.5
+  uuid: ^3.0.7
+  image_picker: ^0.8.7
+  path_provider: ^2.0.14
+  google_fonts: ^4.0.3
 
 dev_dependencies:
   flutter_test:
